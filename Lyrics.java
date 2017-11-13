@@ -35,6 +35,14 @@ public class Lyrics {
 			JOptionPane.showMessageDialog(null, "You are incorrect");
 		}
 		// 9. Record another sound and repeat steps 5-8.
+		String guess2 = JOptionPane.showInputDialog("Guess");
+		String lyrics2 = " Well, it's been a year it doesn't surprise me";
+		if(guess2.equals(lyrics2)) {
+			JOptionPane.showMessageDialog(null, "You are correct");
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "You are incorrect");
+		}
 		System.out.println(points);
 		// 10. [optional] Add a points variable that will calculate their final score.
 	}
