@@ -1,10 +1,11 @@
-package soundtrackToLife;
+
+package SoundtrackToLife;
 
 import java.net.URI;
 
 import javax.swing.JOptionPane;
 
-public class soundtrackToLife {
+public class SoundtrackToLife {
 
 	public static void main(String[] args) {
 

@@ -1,3 +1,4 @@
+
 package fruitQuiz;
 import java.applet.AudioClip;
 import java.awt.event.KeyAdapter;
@@ -13,8 +14,8 @@ public class FruitQuiz extends KeyAdapter {
 		question1 = new JLabel(
 			"<html>Which is not a real animal? <br> A: Flubber Monkey <br> B: Pink Fairy Armadillo <br> C: Dumbo Octopus</html>");
 		//11. Make another question called "question2"
-		question2 = new JLabel(
-			"<html>Which is not a dog> <br> A: Dachshund <br> B: Pomeranian <br> C: Siamese</html>");
+		
+			
 	}
 
 	@Override
